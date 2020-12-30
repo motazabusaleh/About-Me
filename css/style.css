@@ -34,6 +34,10 @@ li {
     margin: 15px;
 }
 
+dt, dd {
+    display: inline;
+}
+
 .border-style-dotted {
     border-style: dotted;
 }
