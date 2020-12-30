@@ -54,5 +54,33 @@ if (fifth.toLowerCase() === 'yes' || fifth.toLowerCase() === 'y') {
 	alert('Wrong, you can see them here: \n https://github.com/Mohammad-Nour-Rezek?tab=repositories');
 }
 
+let j = 0;
+
+for (let i = 0; i < 4; i++) {
+	var guess = prompt('Please guess a number between 0 and 10 \n you have 4 times to try \n now you have ' + (4 - i) + ' left.');
+
+	if (parseFloat(guess) >= 0 || parseFloat(guess) <= 10) {
+		switch (parseFloat(guess)) {
+			case 1:
+				j++;
+				break;
+			case 3:
+				j++;
+				break;
+			case 5:
+				j++;
+				break;
+			case 8:
+				j++;
+				break;		
+		}
+	} else if (parseFloat(guess) < 0) {
+		alert('Too Low!');
+	} else {
+		alert('Too High!');
+	}
+}
+alert('You have ' + j + ' correct answers! \n The correct answers is: 1, 3, 5, 8');
+
 // console.log('Thank you, See you again ' + userName);
 alert('Thank you, See you again ' + userName);
