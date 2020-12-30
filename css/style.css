@@ -1,0 +1,43 @@
+* {
+    margin: 2px 2px 2px 2px;    
+    padding: 2px 2px 2px 2px;    
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: saddlebrown;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+li {
+    /* border-style: solid;
+    border-color: greenyellow;
+    border-width: 5px; */
+
+
+    /* Borders short hand */
+    border: solid 5px greenyellow ;
+
+    /* margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px; */
+
+    /* Margin Short hand */
+    margin: 15px;
+}
+
+.border-style-dotted {
+    border-style: dotted;
+}
+
+#varaibleItem {
+    border-style: double;
+}
