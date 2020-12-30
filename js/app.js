@@ -1,5 +1,9 @@
 'use strict';
 
+var userName = prompt('What is your name?');
+// console.log('Welcome' + greeting);
+alert('Welcome ' + userName);
+
 var first = prompt('Are you ready to know more about Me through playing this game? \n[please answer by typing: (Yes/No) or (Y/N)]');
 
 if (first.toLowerCase() === 'yes' || first.toLowerCase() === 'y') {
@@ -49,3 +53,6 @@ if (fifth.toLowerCase() === 'yes' || fifth.toLowerCase() === 'y') {
     // console.log('Wrong, you can see them here: <a href="https://github.com/Mohammad-Nour-Rezek?tab=repositories">GitHub</a>');
     alert('Wrong, you can see them here: \n https://github.com/Mohammad-Nour-Rezek?tab=repositories');
 }
+
+// console.log('Thank you, See you again ' + userName);
+alert('Thank you, See you again ' + userName);
